@@ -1,0 +1,36 @@
+p{
+    border: solid 1px black;
+    height:100px;
+    width:700px;
+}
+.a{
+    padding-left: 12px;
+    margin-top:10px;
+    border:dotted 2px red;
+    box-sizing:border-box;
+}
+.b{
+    color:antiquewhite;
+    background-color: blue;
+    padding-right: 20px;
+    margin-right:23px;
+    font-size:32px;
+    box-sizing: border-box;
+    border:solid 5px orangered;
+}
+.c{
+    padding-top:28px;
+    font-size:26px;
+    margin-bottom:28px;
+    box-sizing: border-box;
+    color:brown;
+    border: solid 2px blue
+}
+.d{
+    padding-bottom:30px;
+    color:blanchedalmond;
+    background-color: black;
+    font-size:30px;
+    box-sizing:border-box;
+    border:solid 5px yellow;
+}

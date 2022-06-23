@@ -1,0 +1,342 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.container{
+    width:1000vw;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    padding:0 35px;
+    justify-content: flex-end;
+    background-color:cadetblue;
+    margin: 0px 0px;
+    height:9vh;
+    align-items: center;
+}
+.li{
+    padding:0 12px;
+    list-style: none;
+    font-size: 22px;
+}
+.flex2{
+    display: flex;
+}
+
+.btn{
+    margin:12px;
+    font-size: 13px;
+    color:aliceblue;
+    background-color:black;
+    border-radius: 15px;
+    height:5vh;
+    width:9vw;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:darkblue;
+    background-color: whitesmoke;
+}
+
+.flex2 a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bolder;
+}
+
+.img{
+    height:13vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main{
+    background-color: #131313;
+    padding:2px;
+    margin-top: 69px;
+}
+
+.section1{
+    height:46.5vh;
+}
+
+.section2{
+    height:46.5vh;;
+}
+.img1{
+    height:40vh;
+    width:15vw;
+    margin-left: 5px;
+}
+
+.img2{
+    height:40vh;
+    width:20vw;
+    margin-left: 5px;
+}
+
+.img3{
+    height:40vh;
+    width:14vw;
+    margin-left: 5px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.contactform h1{
+    font-family: 'Joan', serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mb-3{
+    padding: 40px 55px;
+    Color:black;
+    background-color:lightpink;
+    font-size:larger
+}
+
+
+.form-control{
+    background-color:rgb(223, 223, 223);
+    font-size:15px;
+    width:400px;
+}
+.services{
+    text-align: center;
+    margin-bottom: 55px;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+.services2{
+    text-align: center;
+}
+
+.h5{
+    padding-bottom: 25px;
+    padding-top: 55px;
+}
+
+.h11{
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.h22 h2 {
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.pubgg{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.btnn{
+    height:15vh;
+    width:15vw;
+    cursor: pointer;
+    color:antiquewhite;
+    background-color: black;
+    font-size: 20px;
+}
+
+.btnn:hover{
+    color:aliceblue;
+    background-color: royalblue;
+}
+
+.Games{
+    TEXT-ALIGN: center;
+    padding-bottom:8px;
+    font-size: 34px;
+    color: whitesmoke;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+  /* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+  /* Page content */
+.content {
+    padding: 16px;
+}
+
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.my-2{
+    margin:12px 0;
+    padding:18px;
+    text-align:center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+    font-family:"Poppins" , sans-serif;
+}
+body{
+    width:100%;
+    height:100vh;
+    /*background-color:#0093e9;*/
+    background-image:
+    linear-gradient(160deg,#0093e9 0%,#80d0c7 100%);
+}
+.flex6{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.container5{
+    position:relative;
+    width:310px;
+    height:370px;
+    border-radius:5px;
+    background-color: #131313;
+    padding: 65px 40px 20px 40px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.505),-10px -10px 20px rgba(0,0,0,0.361);
+}
+
+.user{
+    background-image: url("./download.png");
+    background-size: cover;
+    width:90px;
+    height:90px;
+    background-color :red;
+    border-radius: 60%;
+    position:absolute;
+    left:110px;
+    top:-40px;
+}
+form h1{
+    text-align:center;
+    font-family: 'Roboto',sans-serif;
+    font-size:20px;
+}
+.input{
+    margin:20px 0;
+    position:relative;
+}
+.input input{
+    width:100%;
+    height:40px;
+    background: transparent;
+    outline:none;
+    border:none;
+    border-bottom:0.40 solid rgba(13, 255, 0, 0.463);
+    font-size:17px;
+    padding-top:20px;
+}
+.input label{
+    position: absolute;
+    left:0;
+    bottom:5px;
+    pointer-events:none;
+    transition: 0.6s;
+    font-size:14px;
+}
+
+form input:focus+label,
+input:valid~label{
+    bottom:24px;
+    left:2px;
+    color:black;
+    font-size:13px;
+}
+form input[type="submit"]{
+    padding:4px 20px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    margin-top: 10px;
+    padding: 3px 20px;
+    font-size:15px;
+    background-color: yellowgreen;
+}
+.box{
+    position:relative;
+}
+.forget{
+    position:absolute;
+    font-size: 10px;
+    padding: 5px 0;
+    right:0;
+}
+.signup{
+    font-size:12px;
+    padding:2px;
+    text-align:center;
+}
+a{
+    color:red;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.line{
+    background-color: white;
+    width:100%;
+    height:.2px;
+    opacity:.2px;
+    margin-top: 30px;
+}
+.div{
+    position: absolute;
+    left:0;
+    width:100%;
+}

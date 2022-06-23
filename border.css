@@ -1,0 +1,14 @@
+.a{
+    border-style:dotted;
+    color:aquamarine;
+    background-color:black;
+    border-left:12px blueviolet;
+}
+.abc{
+    border-style:dashed;
+    border-width:10px;
+    border-color:blueviolet;
+    color:blue;
+    background-color:aliceblue;
+    border-right:10px red;
+}

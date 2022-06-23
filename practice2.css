@@ -1,0 +1,13 @@
+.row{
+    border: solid 2px black;
+    height:150px;
+    font-size:0px;
+    background-color:aqua;
+}
+.col1{
+    border:solid 1px red;
+    height:150px;
+    width:33.33%;
+    display:inline-block;
+    background-color:aqua;
+}

@@ -1,0 +1,10 @@
+input[type = "text"]{
+    color:black;
+}
+.button{
+    color:aqua;
+    background-color:black;
+    padding:20px 50px;
+    transition: color 1s;
+    position:relative;
+}

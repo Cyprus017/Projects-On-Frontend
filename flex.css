@@ -1,0 +1,26 @@
+.box{
+    border: solid 2px lightcoral;
+    display:flex;
+    flex-direction:row;
+    width:500px;
+    /*flex-wrap: wrap;*/
+    /*flex-flow: row-reverse wrap;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: center;*/
+    /*justify-content:space-between;*/
+    align-items:baseline;
+
+}
+.box>div{
+    border: dotted 2px lightcoral;
+    border-radius: 5px;
+}
+.one{
+    flex:0 0 100px;
+}
+.two{
+    flex:0 0 100px;
+}
+.three{
+    flex:0 0 100px;
+}
